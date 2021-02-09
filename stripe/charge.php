@@ -3,7 +3,7 @@
 require_once ( './lib/stripe-php-7.61.0/init.php');
 
 // Secret Keyをセット
-$secret_key = 'sk_test_51HeULKG2ft5wb9WTKHyweFfx8lPmLSFSj0mV4BxBRZd0WJ5JAqrKCorV23LMcMedaTR3yADtubR64kEnaN6HgObv00pqDKk53X';
+$secret_key = '****';
 \Stripe\Stripe::setApiKey($secret_key);
 
 // POSTされたデータが存在するなら
